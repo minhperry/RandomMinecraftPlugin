@@ -1,0 +1,23 @@
+name: SomePlugins
+version: '${version}'
+main: net.minhperry.SomePlugin
+api-version: 1.19
+commands:
+  ch:
+    description: Opens a chest-like inventory
+    usage: /ch <name> <numSlots>
+  warp:
+    description: Warp player to other dimensions
+    usage: /warp <dimension>
+  sendloc:
+    description: Sends your current location
+    usage: /sendloc
+  term:
+    description: Gib terminal bow
+    usage: /term
+  loop:
+    description: Run a command multiple times.
+    usage: /loop <times> <command>
+  craft:
+    description: Opens crafting table menu
+    usage: /craft
